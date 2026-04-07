@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print the message
-        run: echo "cron it will depends on time"
+        run: echo "cron it will depends on time......."
