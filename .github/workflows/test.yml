@@ -1,0 +1,8 @@
+name: "demo for cron"
+on: push
+jobs:
+  demo-cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print the message
+        run: echo "cron it will depends on time"
